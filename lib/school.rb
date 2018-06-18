@@ -10,5 +10,8 @@ class School
    @roster[grade] = [] unless @roster[grade]
    @roster[grade] << name
   end
+  def grade
+    @roster[grade]
+  end
 end
   
